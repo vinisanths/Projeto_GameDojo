@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Dojo</title>
+    <link rel="stylesheet" href="bibliotecaJogos.css">
+    <link rel="icon" href="/emmets/games_16647281.png">
+</head>
+<body>
+
+    <header>
+        <h1 class="header-title">Game Dojo</h1>
+        <h2 class="header-title">A sua Biblioteca de Jogos</h2>
+    </header>
+    
+    <main>
+
+        <form id="form" class="form">
+
+            <div class="form-field">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" class="input-field" placeholder="Digite o nome do jogo:" required>
+            </div>
+
+            <div class="form-field">
+                <label for="genero">Gênero:</label>
+                <select id="genero" name="genero" class="input-field" required>
+                    <option value="">Selecione o Gênero do jogo</option>
+                    <option value="Indie">Indie</option>
+                    <option value="Ação">Ação</option>
+                    <option value="Aventura">Aventura</option>
+                    <option value="Casual">Casual</option>
+                    <option value="FPS">FPS</option>
+                    <option value="RPG">RPG</option>
+
+                </select>
+            </div>
+ 
+            <div class="form-field">
+                <label for="Plataforma">Plataforma:</label>
+                <select id="Plataforma" name="Plataforma" class="input-field" required>
+                    <option value="">Selecione a plataforma do jogo</option>
+                    <option value="Pc">Pc</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Console">Console</option>
+                    <option value="Switch">Switch</option>
+                    <option value="Tabuleiro">Tabuleiro</option>
+
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="data-cadastro">Data de Cadastro:</label>
+                <input type="date" id="data-cadastro" name="data-cadastro" class="input-field" required>
+            </div>
+
+            <div class="form-field">
+
+                <label>Status:</label>
+                <div>
+
+                    <label><input type="checkbox" name="Status" value="Comprado"> Comprado</label>
+                    <label><input type="checkbox" name="Status" value="Jogando"> Jogando</label>
+                    <label><input type="checkbox" name="Status" value="Abandonado"> Abandonado</label>
+                    <label><input type="checkbox" name="Status" value="Pretendo Comprar"> Pretendo Comprar</label>
+                </div>
+            </div>
+
+            <button type="submit" class="button">Cadastrar</button>
+        </form>
+
+        <div id="resultado" class="resultado"></div>
+
+    </main>
+    
+    <footer>
+        <p>Game Dojo &COPY;</p>
+    </footer>
+    
+    <script src="bibliotecaJogos.js"></script>
+    
+</body>
+</html>
