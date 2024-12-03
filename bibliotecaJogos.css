@@ -1,120 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #FFC72C;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    padding: 20px;
-    min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1d;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  padding: 20px;
+  min-height: 100vh;
 }
 
 .header-title {
-    text-align: center;
-    color: #333;
-    padding: 10px;
+  text-align: center;
+  color: #333;
+  padding: 10px;
 }
 
 .form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #E1EBEE;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
-    padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #e1ebee;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
 }
 
 .form-field {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 label {
-    display: inline-block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    padding: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 10px;
 }
 
 .input-field {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .button {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 25px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  width: 100%;
 
-    &:hover {
-        background-color: rgb(36, 187, 31);
-        transform: translateY(-3px); 
-    }
+  &:hover {
+    background-color: rgb(36, 187, 31);
+    transform: translateY(-3px);
+  }
 
-    &:active{
-        transform: translateY(0);
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-        transition: box-shadow 0.5s ease;
-        transition: color 0.5s ease;
-    }
-    
+  &:active {
+    transform: translateY(0);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.5s ease;
+    transition: color 0.5s ease;
+  }
 }
 
 .resultado {
-    display: none;
-    margin-top: 24px;
-    padding: 10px;
-    background-color: #E1EBEE;
-    border-left: 6px solid #07f20b;
-    border-right: 6px solid #07f20b;
-    border-radius: 5px;
-    margin-bottom: 17px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  display: none;
+  margin-top: 24px;
+  padding: 10px;
+  background-color: #e1ebee;
+  border-left: 6px solid #07f20b;
+  border-right: 6px solid #07f20b;
+  border-radius: 5px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 
-    h2{
-        text-decoration: underline;
-        margin-bottom: 3px;
-        font-weight: bold;
-        margin-top: 0;
-        font-style: italic;
-        font-style: normal;
-    }
-    
-    p{
-        margin-bottom: 3px;
-    }
-    
+  h2 {
+    text-decoration: underline;
+    margin-bottom: 3px;
+    font-weight: bold;
+    margin-top: 0;
+    font-style: italic;
+    font-style: normal;
+  }
+
+  p {
+    margin-bottom: 3px;
+  }
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 99%;
-    text-align: center;
-    color: black;
-    text-decoration: overline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    position: fixed;
-    bottom: 5px;
-    
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+  text-align: center;
+  color: black;
+  text-decoration: overline;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  position: fixed;
+  bottom: 5px;
 }
